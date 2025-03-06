@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('git checkout') {
+        stage('git cht') {
             steps {
                 git branch: 'main', url: 'https://github.com/vinay-uppara/terraform-ci-cd-jenkins.git'
             }
